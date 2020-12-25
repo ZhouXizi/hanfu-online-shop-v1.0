@@ -1,5 +1,7 @@
 <template>
-  <h1>这是主页</h1>
+  <section>
+    <h1>这是主页</h1>
+  </section>
 </template>
 
 <script>
