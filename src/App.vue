@@ -1,6 +1,7 @@
 <template>
   <TheHeader />
-  <Home />
+  <!-- <Home /> -->
+  <router-view></router-view>
 </template>
 
 <script>
