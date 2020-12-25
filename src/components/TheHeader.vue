@@ -2,9 +2,9 @@
   <header>
     <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="/">
+    <router-link to="/" class="navbar-item" href="/">
       <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
+    </router-link>
 
     <a 
       @click="toogleShowNav" 
@@ -23,13 +23,13 @@
 
   <div id="navbarBasic" class="navbar-menu" :class="navBasicClasses">
     <div class="navbar-start">
-      <a class="navbar-item">
+      <router-link to="/" class="navbar-item">
         主页
-      </a>
+      </router-link>
 
-      <a class="navbar-item">
+      <router-link to="/shoppingPage" class="navbar-item">
         服装系列
-      </a>
+      </router-link>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
