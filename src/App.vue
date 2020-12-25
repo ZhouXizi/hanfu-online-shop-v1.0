@@ -6,12 +6,11 @@
 
 <script>
 import TheHeader from "@/components/TheHeader.vue";
-import Home from "@/views/Home.vue";
+// import Home from "@/views/Home.vue";
 
 export default {
   name: "App",
   components: {
-    Home,
     TheHeader
   }
 };
