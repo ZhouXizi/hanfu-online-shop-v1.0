@@ -53,9 +53,6 @@
     <div class="navbar-end">
 
       <!-- 已登录用户 -->
-      <a v-if="isAuth" class="navbar-item">
-            购物车(0)
-      </a>
       <div v-if="isAuth" class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           我的账户
@@ -73,6 +70,10 @@
           </a>
         </div>
       </div>
+      <a v-if="isAuth" class="navbar-item">
+            购物车(0)
+      </a>
+
 
       <!-- 未登录用户 -->
       <div v-if="!isAuth" class="navbar-item">
