@@ -1,17 +1,21 @@
 <template>
-  <BreadCrumbs />
-  <section>
-    <h1>这是购物页面</h1>
-  </section>
+    <BreadCrumbs />
+    <section class="section">
+        <h1 class="title has-text-centered is-size-12">一起购物吧！</h1>
+    </section>
+
+    <CollectionList />
 </template>
 
 <script>
 import BreadCrumbs from "@/components/BreadCrumbs.vue"
+import CollectionList from "@/components/CollectionList.vue"
 
 export default {
   name: "ShoppingPage",
   components: {
-    BreadCrumbs
+    BreadCrumbs,
+    CollectionList
   }
 };
 </script>
