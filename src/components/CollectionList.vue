@@ -1,44 +1,21 @@
 <template>
     <div class="container">
-        <div class="columns mt-5 is-12 is-variable">
-            <div class="cloumn mx-5 is-4-tablet is-3-desktop">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="https://img30.360buyimg.com/popWaterMark/jfs/t1/19597/34/15513/124367/5cb03088E79eac6d3/3ce7c2996f2ab961.jpg" alt="Placeholder image">
-                        </figure>
-                    </div>
-                </div>    
-            </div>
-
-            <div class="cloumn mx-5 is-4-tablet is-3-desktop">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                    </div>
-                </div>    
-            </div>
-
-            <div class="cloumn mx-5 is-4-tablet is-3-desktop">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                    </div>
-                </div>    
-            </div>
-            
+        <div class="columns mt-5 is-8 is-variable">
+            <CollectionItem />
+            <CollectionItem />
+            <CollectionItem />
         </div>
     </div>
 </template>
 
 <script>
+import CollectionItem from "./CollectionItem.vue"
 
 export default {
-  name: "CollectionList"
+  name: "CollectionList",
+  components:{
+      CollectionItem
+  }
 };
 </script>
 

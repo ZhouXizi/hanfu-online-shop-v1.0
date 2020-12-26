@@ -2,9 +2,8 @@
     <BreadCrumbs />
     <section class="section">
         <h1 class="title has-text-centered is-size-12">一起购物吧！</h1>
+        <CollectionList />
     </section>
-
-    <CollectionList />
 </template>
 
 <script>
